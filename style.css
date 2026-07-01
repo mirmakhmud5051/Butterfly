@@ -324,50 +324,52 @@ animation: right-top 10s infinite;
 
   .main {
     overflow: hidden;
-    padding: 10px;
+    padding: 20px;
   }
 
   .box {
-    width: 300px;
-    height: 200px;
+    width: 320px;
+    height: 220px;
+    transform: scale(0.6);
+    transform-origin: center;
   }
 
   .body {
-    width: 70px;
-    height: 200px;
+    width: 90px;
+    height: 250px;
   }
 
   .body__top {
-    width: 70px;
-    height: 200px;
-    gap: 18px;
+    width: 90px;
+    height: 250px;
+    gap: 25px;
   }
 
   .body__bottom {
-    width: 70px;
-    height: 200px;
-    margin-top: -20px;
-    margin-bottom: 45px;
+    width: 90px;
+    height: 250px;
+    margin-top: -25px;
+    margin-bottom: 60px;
   }
 
   .left__top,
   .left__bottom,
   .right__top,
   .right__bottom {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 130px;
   }
 
   .wing__left {
-    margin-right: -10px;
+    margin-right: -12px;
   }
 
   .wing__right {
-    margin-left: -10px;
+    margin-left: -12px;
   }
 
   .line1,
   .line2 {
-    height: 60px;
+    height: 80px;
   }
 }
