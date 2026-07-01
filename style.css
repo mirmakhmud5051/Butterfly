@@ -328,48 +328,46 @@ animation: right-top 10s infinite;
   }
 
   .box {
-    width: 600px;
-    height: 400px;
-    transform: scale(0.42);
-    transform-origin: center;
+    width: 300px;
+    height: 200px;
   }
 
   .body {
-    width: 120px;
-    height: 320px;
+    width: 70px;
+    height: 200px;
   }
 
   .body__top {
-    width: 120px;
-    height: 320px;
-    gap: 28px;
+    width: 70px;
+    height: 200px;
+    gap: 18px;
   }
 
   .body__bottom {
-    width: 120px;
-    height: 320px;
-    margin-top: -30px;
-    margin-bottom: 70px;
+    width: 70px;
+    height: 200px;
+    margin-top: -20px;
+    margin-bottom: 45px;
   }
 
   .left__top,
   .left__bottom,
   .right__top,
   .right__bottom {
-    width: 170px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .wing__left {
-    margin-right: -15px;
+    margin-right: -10px;
   }
 
   .wing__right {
-    margin-left: -15px;
+    margin-left: -10px;
   }
 
   .line1,
   .line2 {
-    height: 90px;
+    height: 60px;
   }
 }
